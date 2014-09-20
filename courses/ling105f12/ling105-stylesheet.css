@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	background-color: #c8ced3;
+	color: #1f292f;
+	padding: 30px;
+	margin: 0px;
+	font-family: Garamond, Tahoma, Georgia, serif;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+/*container for main content*/
+#container {
+	text-align: left;
+	width: 900px;
+	background-color: #fff;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+}
+
+#weeklysched {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.unittitle {
+	text-align: center;
+	font-variant: small-caps;
+	border-bottom: 1px dashed black;
+	border-top: 1px dashed black;
+}
+
+.noclass {
+	text-align: center;
+	font-style: italic;
+}
+
+.pictures {
+	float: right;
+}
+
+/*#description {
+	margin-top: 50px;
+	
+}*/
+
+#finalrow {
+	border-bottom: 1px solid black;
+}
+
+#toprow {
+	border-bottom: 1px solid black;
+}
+
+tt {
+	font-size: 10pt
+}
