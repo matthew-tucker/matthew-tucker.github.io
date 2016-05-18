@@ -92,7 +92,11 @@
     }
 }
 
-
+.img-banner {
+	display: block;
+	width: $content-width;
+	height: 250px;
+}
 
 /**
  * Site footer
