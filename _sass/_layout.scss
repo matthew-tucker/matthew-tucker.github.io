@@ -2,12 +2,17 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+#arabic-name {
+	font-family: $arabic-font-family;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 200;
 }
 
 .site-title {
@@ -15,8 +20,9 @@
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 
     &,
     &:visited {
@@ -25,8 +31,8 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
+    text-align: center;
 
     .menu-icon {
         display: none;
@@ -104,6 +110,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
 }
 
 .footer-heading {
