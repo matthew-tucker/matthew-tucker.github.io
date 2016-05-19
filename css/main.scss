@@ -8,19 +8,33 @@
 $base-font-family: "Helvetica Neue", Helvetica, sans-serif;
 $serif-font-family: "Garamond Book", Garamond, serif;
 $arabic-font-family: "Al Bayan", sans-serif;
+
 $base-font-size:   14px;
-$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
+$nav-font-size:  $base-font-size * 1.250;
+
 $base-line-height: 1.5;
+$base-font-weight: 400;
 
 $spacing-unit:     30px;
 
+$oakland-black:	   	#000;
+$oakland-white:	   	#fff;
+$oakland-gold:	   	#b59a57;
+$oakland-gold-ws:	#966;
+$oakland-gold-2:   	#b9975b;
+$oakland-gold-2-ws: #cc9966;
+$oakland-tan:		#e7d19a;
+$oakland-grey:		#999;
+$oakland-grey-tan:	#ccc7bb;
+
+
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: $oakland-grey-tan;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color:       #999;
+$grey-color-light: lighten($grey-color, 25%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area

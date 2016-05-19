@@ -3,8 +3,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <p id="arabic-name">ماثيو (متّى) توكر</p>
-
+	
     <nav class="site-nav">
 
 
@@ -19,7 +18,9 @@
         {% assign sortedpages = pages | split: '|' | sort %}
         {% for page in sortedpages %}
           {% assign pageitems = page | split: '#' %}
+          {% unless pageitems[1] == %}
             <a class = "page-link" href="{{ pageitems[1] }}">{{ pageitems[0] }}</a>
+          {% endunless %}
         {% endfor %}
       </div>
     </nav>

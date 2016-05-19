@@ -23,31 +23,39 @@
     display: block;
     text-align: center;
     margin: 0 auto;
+    background-color: $oakland-black;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $oakland-white;
+    }
+    &:hover {
+	    color: $grey-color;
     }
 }
 
 .site-nav {
-    line-height: 56px;
+    line-height: auto;
     text-align: center;
+    background-color: $oakland-gold;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $oakland-white;
         line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 5px;
-        }
-    }
-
+        display: inline-block;
+        font-size: $nav-font-size;
+        padding: 6px 12px;
+        
+		&:hover {
+			background-color: darken($oakland-gold, 20%);
+			color: $grey-color-light;
+		}
+	}
+		
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
