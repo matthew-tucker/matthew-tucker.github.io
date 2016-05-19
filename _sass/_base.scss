@@ -85,6 +85,35 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h1 {
+	font-size: $biggerer-font-size;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: $bigger-font-size;
+}
+
+h3 {
+	font-size: $bigger-font-size;
+}
+
+h4 {
+	font-size: $base-font-size;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: $base-font-size;
+	font-style: italic;
+}
+
+h6 {
+	font-size: $base-font-size;
+	font-weight: bold;
+	display: inline;
+}
+
 
 
 /**

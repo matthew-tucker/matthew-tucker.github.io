@@ -9,14 +9,21 @@
 }
 
 #arabic-name {
+	@extend h2;
 	font-family: $arabic-font-family;
-	text-align: center;
-	font-size: 28px;
 	font-weight: 200;
+	direction: rtl;
+	margin-left: auto;
+}
+
+#english-name{
+	@extend h2;
+	font-weight: 200;
+	margin-right: auto;
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: $biggerer-font-size;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -38,6 +45,8 @@
     line-height: auto;
     text-align: center;
     background-color: $oakland-gold;
+    border-bottom: 1px solid $grey-color-dark;
+    border-top: 1px solid $grey-color-dark;
 
     .menu-icon {
         display: none;
@@ -109,7 +118,8 @@
 .img-banner {
 	display: block;
 	width: $content-width;
-	height: 250px;
+	height: 251px;
+	border-bottom: 1px solid $grey-color-dark;
 }
 
 /**
@@ -122,7 +132,7 @@
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: $big-font-size;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -133,7 +143,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $big-font-size;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -187,11 +197,12 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit;
+    background-color: $oakland-white;
 }
 
-.page-heading {
-    font-size: 20px;
+.page-heading, .home {
+    @extend h1;
 }
 
 .post-list {
@@ -234,6 +245,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-size: $base-font-size;
 
     h2 {
         font-size: 32px;
