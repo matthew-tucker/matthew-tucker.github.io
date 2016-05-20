@@ -68,12 +68,12 @@
 	top: 0;
 	z-index: 100;
 	position: fixed;
-	border: none;
+	line-height: auto;
+	opacity: 0.8;
+	transition: all 1s ease;
 	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
 	min-width: $content-width - 2 * $spacing-unit;
-	opacity: 0.8;
-
 }
 
 .site-nav {
