@@ -10,16 +10,37 @@
 
 #arabic-name {
 	@extend h2;
+	font-size: $biggerer-font-size;
 	font-family: $arabic-font-family;
 	font-weight: 200;
 	direction: rtl;
-	margin-left: auto;
+	float: right;
 }
 
-#english-name{
+#english-name {
 	@extend h2;
 	font-weight: 200;
-	margin-right: auto;
+	text-align: left;
+}
+
+.img-wrap {
+	position: relative;
+	height: 268px;
+}
+
+.img-wrap img {
+	height: 250px;
+	width: 200px;
+	position: absolute;
+	padding-top: 6pt;
+}
+
+.img-wrap img:nth-of-type(1) {
+	left: 0;
+}
+
+.img-wrap img:nth-of-type(2) {
+	right: 0;
 }
 
 .site-title {
@@ -31,6 +52,8 @@
     text-align: center;
     margin: 0 auto;
     background-color: $oakland-black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     &,
     &:visited {
@@ -39,6 +62,18 @@
     &:hover {
 	    color: $grey-color;
     }
+}
+
+.nav-fixed {
+	top: 0;
+	z-index: 100;
+	position: fixed;
+	border: none;
+	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+	min-width: $content-width - 2 * $spacing-unit;
+	opacity: 0.8;
+
 }
 
 .site-nav {
@@ -199,9 +234,11 @@
 .page-content {
     padding: $spacing-unit;
     background-color: $oakland-white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-.page-heading, .home {
+.page-heading {
     @extend h1;
 }
 
