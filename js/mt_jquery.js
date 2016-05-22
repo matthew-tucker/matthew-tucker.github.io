@@ -59,3 +59,19 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+	$('.img-banner').loadBanner({
+	path: '/files/images/',
+	altTag: '',
+	fadeIntime: 0,
+	TheImages: ['central-valley.jpg', 'golden-gate.jpg', 'niagra.jpg', 'qp1.jpg', 'seals.jpg', 'khatim.jpg','omm-alla.jpg',
+			    'statistics-malaria.jpg', 'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg']});
+			    
+	$(".show-abs").click(function(){ 
+	$("a.show-abs").next().toggle(duration=500, easing="linear")});
+	
+});
+
+
+

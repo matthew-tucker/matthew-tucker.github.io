@@ -64,6 +64,13 @@
     }
 }
 
+.more-details-ac {
+	border: 1px dashed $oakland-black;
+	background-color: $grey-color-light;
+	padding: 6px;
+	display: none;
+}
+
 .nav-fixed {
 	top: 0;
 	z-index: 100;
