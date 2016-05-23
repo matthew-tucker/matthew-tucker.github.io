@@ -1,18 +1,9 @@
+
 /*!
 * ChickenDinner 1.0
 * Copyright 2014, Stephen Scaff - http://sosweetcreative.com 
 * Released under the WTFPL license - http://sam.zoy.org/wtfpl/
-*
-* USEAGE 
-* For img tags
-* =====================
-* $('.js-chickendinner').chickenDinner({
-*    path: 'images/',
-*    fadeInTime:2000,
-*    TheImages: ['ban1.png', 'ban2.png','ban3.png','ban4.png','ban5.png','ban6.png']
-* });
 */
-
 (function($){
   $.loadBanner = {
     defaults: {
@@ -68,9 +59,8 @@ $(document).ready(function() {
 	TheImages: ['central-valley.jpg', 'golden-gate.jpg', 'niagra.jpg', 'qp1.jpg', 'seals.jpg', 'khatim.jpg','omm-alla.jpg',
 			    'statistics-malaria.jpg', 'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg']});
 			    
-	$(".show-abs").click(function(){ 
-	$("a.show-abs").next().toggle(duration=500, easing="linear")});
-	
+	$(".show-abs").on("click", function(){ 
+		$(this).next().toggle(duration=500, easing="linear")});
 });
 
 

@@ -10,8 +10,8 @@ title:  "Prepubs"
 	
 	<ul>
 		{% for post in site.categories.handouts %}
-			<li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="/files/prepubs/{{post.loc}}" target="_blank">pdf</a>] [<a href="#" class="show-abs">more</a>] 
-			<div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
+			<li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="/files/prepubs/{{post.loc}}" target="_blank">pdf</a>] [<span class="show-abs">more</span>] 
+				<div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
 			</li>
 		{% endfor %}
 	</ul>
