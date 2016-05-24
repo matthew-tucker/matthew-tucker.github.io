@@ -76,7 +76,7 @@ $(document).ready(function() {
 	
 	// make sure links in the pubs list open in a new window/tab so that
 	// pdf/external requests don't direct the user away from the website
-	$("ul.pubs-list a[href^='http://']").attr("target","_blank");
+	$("ul.pubs-list a").attr("target","_blank");
 });
 
 

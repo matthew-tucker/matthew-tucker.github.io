@@ -4,7 +4,7 @@ title:  "Pubs"
 ---
 
 <div class="page-container">
-	<h1 class="page-heading">Publications</em></h1>
+	<h1 class="page-heading">Publications & Papers</em></h1>
 	
 {% for post in site.categories.papers %}
 	{% assign currentdate = post.date | date: "%Y" %}
@@ -12,11 +12,20 @@ title:  "Pubs"
 		{% unless forloop.first %}
 			</ul>
 		{% endunless %}
-		<h2 class="pubs-list" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-		<ul>
+		<h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+		<ul class="pubs-list">
 		{% assign date = currentdate %}
 	{% endif %}
-    <li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</li>
+    <li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    {% if post.loc %}
+    	[<a href="/files/papers/{{ post.loc }}" target="_blank">pdf</a>]
+    {% endif %}
+    {% if post.ext_site %}
+    	[<a href="{{ post.ext_site }}" target="_blank">link</a>]
+    {% endif %}
+    [<span class="show-abs">more</span>]
+    <div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
+    </li>
 	{% if forloop.last %}
 		</ul>
 	{% endif %}

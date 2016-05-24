@@ -16,7 +16,7 @@ This is a handout of a talk given at the [Seventh Brussels Conference on Generat
 
 #### Notes
 
-This talk was superseded by chapter 5 of [my dissertation](), and that should be consulted for more details on the Maltese PCC as well as its relationship to the other documented PCC in Semitic (from Modern Standard Arabic).
+This talk was superseded by chapter 5 of [my dissertation](/files/papers/dissertation.pdf), and that should be consulted for more details on the Maltese PCC as well as its relationship to the other documented PCC in Semitic (from Modern Standard Arabic).
 
 #### Full Citation
 

@@ -16,7 +16,7 @@ This is a handout of a talk given at the 28*th* Annual Meeting of the West Coast
 
 #### Notes
 
-This handout led to the published [WCCFL Proceedings Paper]() as well as an [article in Recherches linguistique de Vincennes](). The paper version, in particular, is a better-packaged version of this project.
+This handout led to the published [WCCFL Proceedings Paper](http://www.lingref.com/cpp/wccfl/28/paper2452.pdf) as well as an [article in Recherches linguistique de Vincennes](http://rlv.revues.org/1833). The paper version, in particular, is a better-packaged version of this project.
 
 #### Full Citation
 

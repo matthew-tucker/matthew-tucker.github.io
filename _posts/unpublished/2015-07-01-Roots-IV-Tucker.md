@@ -17,7 +17,7 @@ This is a handout of an invited talk given at the fourth installment of the _Roo
 
 #### Notes
 
-This talk involves some elements of an analysis of the Arabic clause put forth in [my paper in a _Festschrift_ for Jorge Hankamer](). Full argumentation for some of the assumptions left unproven in the handout appear there.
+This talk involves some elements of an analysis of the Arabic clause put forth in [my paper in a _Festschrift_ for Jorge Hankamer](http://escholarship.org/uc/lrc_masc). Full argumentation for some of the assumptions left unproven in the handout appear there.
 
 
 #### Full Citation
