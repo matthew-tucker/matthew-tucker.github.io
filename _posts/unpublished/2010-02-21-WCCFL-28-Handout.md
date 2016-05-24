@@ -6,13 +6,13 @@ categories: handouts
 loc: wccfl-28-tucker.pdf
 ---
 
-**Iraqi Arabic Verbs: The Need for Roots and Templates**. Handout of a talk given at the _28th Annual West Coast Conference on Formal Linguistics_. Los Angeles, CA: University of Southern California. 21 February 2010.
+**Iraqi Arabic Verbs: The Need for Roots and Templates**. Handout of a talk given at the _28<sup>th</sup> Annual West Coast Conference on Formal Linguistics_. Los Angeles, CA: University of Southern California. 21 February 2010.
 
 <!---more--->
 
 #### Summary
 
-This is a handout of a talk given at the 28*th* Annual Meeting of the West Coast Conference on Formal Linguistics which attempts to derive the entirety of the Iraqi Arabic verbal root-and-pattern system using an input set containing only a consonantal root and vocalic melody. It is a portion of my MA thesis from UC Santa Cruz. Templatic effects are derived solely by phonotactic and syllabic constraints in the language at large. The resulting system is called the **Root and Pattern** system for nonconcatenative templatic morphology.
+This is a handout of a talk given at the 28<sup>th</sup> Annual Meeting of the West Coast Conference on Formal Linguistics which attempts to derive the entirety of the Iraqi Arabic verbal root-and-pattern system using an input set containing only a consonantal root and vocalic melody. It is a portion of my MA thesis from UC Santa Cruz. Templatic effects are derived solely by phonotactic and syllabic constraints in the language at large. The resulting system is called the <span class="construct">Root and Pattern</span> system for nonconcatenative templatic morphology.
 
 #### Notes
 

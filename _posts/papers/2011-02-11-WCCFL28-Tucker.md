@@ -7,7 +7,7 @@ loc:
 ext_site: http://www.lingref.com/cpp/wccfl/28/paper2452.pdf
 ---
 
-**Iraqi Arabic Verbs: The Need for Roots and Prosody**. In [Proceedings of the 28th West Coast Conference on Formal Linguistics](http://www.lingref.com/cpp/wccfl/28/index.html), ed. Mary Byram Washburn, Katherine McKinney-Bock, Erika Varis, Ann Sawyer, and Barbara Tomaszewicz: pp. 196-204. Somerville, MA: Cascadilla Proceedings Project.
+**Iraqi Arabic Verbs: The Need for Roots and Prosody**. In [Proceedings of the 28<sup>th</sup> West Coast Conference on Formal Linguistics](http://www.lingref.com/cpp/wccfl/28/index.html), ed. Mary Byram Washburn, Katherine McKinney-Bock, Erika Varis, Ann Sawyer, and Barbara Tomaszewicz: pp. 196-204. Somerville, MA: Cascadilla Proceedings Project.
 
 <!---more--->
 
