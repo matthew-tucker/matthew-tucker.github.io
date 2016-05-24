@@ -39,9 +39,13 @@
   });
 })(jQuery);
 
+// document ready hooks
 $(document).ready(function() {
-    $(document).scroll(function () {
-        var scroll = $(this).scrollTop();
+	
+	// keep the scroll bar on top
+	// we also make it slightly translucent
+	$(document).scroll(function () {
+		var scroll = $(this).scrollTop();
         var topDist = $(".img-banner").position();
         if (scroll > topDist.top) {
             $('.site-nav').addClass("nav-fixed");
@@ -49,18 +53,30 @@ $(document).ready(function() {
             $('.site-nav').removeClass("nav-fixed");
         }
     });
-});
 
-$(document).ready(function() {
+	// change thet banner on reload randomly
+	// this calls the loadBanner() method from above
 	$('.img-banner').loadBanner({
-	path: '/files/images/',
-	altTag: '',
-	fadeIntime: 0,
-	TheImages: ['central-valley.jpg', 'golden-gate.jpg', 'niagra.jpg', 'qp1.jpg', 'seals.jpg', 'khatim.jpg','omm-alla.jpg',
-			    'statistics-malaria.jpg', 'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg']});
-			    
+		path: '/files/images/',
+		altTag: '',
+		fadeIntime: 0,
+		TheImages: ['central-valley.jpg', 'golden-gate.jpg', 'niagra.jpg', 'qp1.jpg', 
+					'seals.jpg', 'khatim.jpg','omm-alla.jpg', 'statistics-malaria.jpg', 
+					'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg']});
+	
+	// show and hide more information for academic publication lines		    
 	$(".show-abs").on("click", function(){ 
-		$(this).next().toggle(duration=500, easing="linear")});
+		$(this).next().slideToggle(duration=500, function() {
+			if ($(this).prev().html() === "more") {
+				$(this).prev().html("less");
+			} else {
+				$(this).prev().html("more");
+			}
+	})});
+	
+	// make sure links in the pubs list open in a new window/tab so that
+	// pdf/external requests don't direct the user away from the website
+	$("ul.pubs-list a[href^='http://']").attr("target","_blank");
 });
 
 

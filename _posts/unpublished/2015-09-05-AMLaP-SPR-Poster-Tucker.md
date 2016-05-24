@@ -12,6 +12,8 @@ loc: amlap-2015-tucker-idrissi-almeida.pdf
 
 #### Summary
 
+This poster presents the results of two experiments which assess the possibility of **Agreement Attraction** errors (_e.g._, _The key to the cabinets **are**..._) for verbal gender agreement in the comprehension of Modern Standard Arabic verbs. We demonstrate that attraction for gender does occur in comprehension, a novel empirical finding at the time. We also suggest in this poster that, like English number attraction, these errors are asymmetric with respect to markedness &mdash; masculine subjects with feminine distractors cause more errors than feminine subjects with masculine distractors (however see our subsequent manuscript, referenced below, for some update of this idea). Finally, we provide some comparative commentary to [our previous results on number attraction in Arabic]() which suggest a difference in timing for these gender errors relative to other agreement features.
+
 
 #### Notes
 

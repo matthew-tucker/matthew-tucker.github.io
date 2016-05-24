@@ -12,6 +12,8 @@ loc: snl2014-tucker-politzer-ahles-king-almeida.pdf
 
 #### Summary
 
+This poster presents the results of a very large concurrent recording MEG and EEG experiment assessing the neural responses to **Agreement Attraction** errors such as _The key to the cabinets obviously were rusty from years of disuse_. Relative to grammatical controls, ungrammatical verbs are shown to trigger a left-lateralized negativity in early time windows (a **LAN**) and a broad, centro-posterior positivity in later time windows (a **P600**), both in the EEG signal. In the MEG signal, the P600 is shown to correlate with _decreased_ activation to ungrammatical sentences, localized to the anterior left superior temporal gyrus and perisylvian inferior frontal sites (an **M600**). Attraction sentences (with ungrammatical verbs but a suitable matching non-subject) are shown to decrease the P600 in amplitude and spatial extent, consistent with the notion that the P600 indexes error recognition or parsing reanalysis. We provide some limited commentary on the polarity reversal of the M600 by suggesting that the P600 might be better viewed as a negative deflection to grammatical utterances as opposed to positive deflection to ungrammatical utterances.
+
 
 #### Notes
 

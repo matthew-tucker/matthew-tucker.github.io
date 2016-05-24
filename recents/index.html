@@ -8,7 +8,7 @@ title:  "Prepubs"
 	
 	<h2>Handouts</h2>
 	
-	<ul>
+	<ul class="pubs-list" id="handouts">
 		{% for post in site.categories.handouts %}
 			<li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="/files/prepubs/{{post.loc}}" target="_blank">pdf</a>] [<span class="show-abs">more</span>] 
 				<div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
@@ -17,7 +17,7 @@ title:  "Prepubs"
 	</ul>
 	
 	<h2>Posters</h2>
-	<ul>
+	<ul class="pubs-list" id="posters">
 		{% for post in site.categories.posters %}
 			<li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="/files/prepubs/{{post.loc}}" target="_blank">pdf</a>] [<span class="show-abs">more</span>]
 				<div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
