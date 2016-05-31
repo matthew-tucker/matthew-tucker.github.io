@@ -62,7 +62,8 @@ $(document).ready(function() {
 		fadeIntime: 0,
 		TheImages: ['central-valley.jpg', 'golden-gate.jpg', 'niagra.jpg', 'qp1.jpg', 
 					'seals.jpg', 'khatim.jpg','omm-alla.jpg', 'statistics-malaria.jpg', 
-					'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg']});
+					'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg', 'aramaic.jpg',
+					'communards.jpg']});
 	
 	// show and hide more information for academic publication lines		    
 	$(".show-abs").on("click", function(){ 
