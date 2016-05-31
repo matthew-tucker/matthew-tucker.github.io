@@ -10,9 +10,11 @@
       <div class="trigger">
         {% capture pages %}
           {% for page in site.pages %}
+          	{% unless page.blog %}
             {% if page.title %}
             |{{ page.title }}#{{ page.url }}
             {% endif %}
+            {% endunless %}
           {% endfor %}
         {% endcapture %}
         {% assign sortedpages = pages | split: '|' | sort %}
