@@ -64,6 +64,13 @@ $(document).ready(function() {
 					'seals.jpg', 'khatim.jpg','omm-alla.jpg', 'statistics-malaria.jpg', 
 					'yorkshire.jpg', 'stormtrooper.jpg', 'pool.jpg', 'aramaic.jpg',
 					'communards.jpg']});
+					
+	// and for the blog
+	$('.blog-banner').loadBanner({
+		path: '/files/images/',
+		altTag: '',
+		fadeIntime: 0,
+		TheImages: ['branches.jpg', 'counter-attack.jpg']});
 	
 	// show and hide more information for academic publication lines		    
 	$(".show-abs").on("click", function(){ 
