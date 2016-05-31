@@ -48,10 +48,30 @@
 	border-bottom: 1px solid $blue-light-grey;
 	border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    
+    & div:not(:last-child) {
+	    border-bottom: 1px dashed $black;
+    }
+    
+    & p {
+	    padding-left: $spacing-unit / 4;
+	    //padding-top: $spacing-unit / 2;
+    }
 }
 
-.nav-list li {
-	list-style-type: none;
+.nav-list {
+	
+	margin-left: $spacing-unit / 2;
+	
+	& li {
+		list-style-type: none;
+	}
+}
+
+.nav-header {
+	font-weight: bold;
+	font-size: $big-font-size;
+	margin-bottom: 0;
 }
 
 .blog-content {
