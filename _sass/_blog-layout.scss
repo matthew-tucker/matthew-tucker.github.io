@@ -1,12 +1,28 @@
+.blog-container {
+	margin: $spacing-unit / 2 0;
+}
+
+.blog-banner-container {
+	background-color: $dark-blue-grey;
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blog-tagline { 
+	color: $blue-light-grey;
+	text-align: center;
+	display: block;
+	padding-bottom: $spacing-unit / 4;
+	font-style: italic;
+}
+
 .blog-title {
     font-size: $biggerer-font-size;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
     display: block;
     text-align: center;
     margin: 0 auto;
-    background-color: $dark-blue-grey;
     display: block;
 
     &,
@@ -79,5 +95,7 @@
     right: 0;
     padding: $spacing-unit;
     background-color: $white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
