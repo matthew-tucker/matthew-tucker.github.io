@@ -1,0 +1,28 @@
+---
+layout: default
+title:  "Prepubs"
+---
+
+<div class="page-container">
+	<h1 class="page-heading">Posters, Handouts, <em>etc.</em></h1>
+	
+	<h2>Handouts & Slides</h2>
+	
+	<ul class="pubs-list" id="handouts">
+		{% for post in site.categories.handouts %}
+			<li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="/files/prepubs/{{post.loc}}" target="_blank">pdf</a>] [<span class="show-abs">more</span>] 
+				<div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
+			</li>
+		{% endfor %}
+	</ul>
+	
+	<h2>Posters</h2>
+	<ul class="pubs-list" id="posters">
+		{% for post in site.categories.posters %}
+			<li>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} [<a href="/files/prepubs/{{post.loc}}" target="_blank">pdf</a>] [<span class="show-abs">more</span>]
+				<div class="more-details-ac">{{ post.content | remove: post.excerpt }}</div>
+			</li>
+		{% endfor %}
+	</ul>
+	
+</div>

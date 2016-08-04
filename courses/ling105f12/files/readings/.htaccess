@@ -1,7 +1,0 @@
-AuthName	"These readings are password protected"
-AuthType	Basic
-AuthUserFile	/afs/cats.ucsc.edu/users/u/matucker/private/.htpasswd
-
-<Limit GET POST>
-require user ling105
-</Limit>

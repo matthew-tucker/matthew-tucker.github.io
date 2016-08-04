@@ -1,0 +1,34 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+	
+    <nav id="trans" class="site-nav">
+
+
+      <div class="trigger">
+        {% capture pages %}
+          {% for page in site.pages %}
+          	{% unless page.blog %}
+            {% if page.title %}
+            |{{ page.title }}#{{ page.url }}
+            {% endif %}
+            {% endunless %}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sortedpages = pages | split: '|' | sort %}
+        {% for page in sortedpages %}
+          {% assign pageitems = page | split: '#' %}
+          {% unless pageitems[1] == %}
+            <a class = "page-link" href="{{ pageitems[1] }}">{{ pageitems[0] }}</a>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </nav>
+
+	<img class="img-banner" src="/files/images/qp1.jpg" alt="" />
+
+  </div>
+
+</header>
