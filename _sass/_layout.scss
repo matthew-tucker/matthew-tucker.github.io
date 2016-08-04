@@ -89,7 +89,7 @@
 	position: fixed;
 	line-height: auto;
 	opacity: 0.8;
-	transition: all 1s ease;
+	transition: ease;
 	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
 	min-width: $content-width - 2 * $spacing-unit;

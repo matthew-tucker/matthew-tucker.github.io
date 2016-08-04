@@ -7,9 +7,9 @@
 
 # Site settings
 title: Matthew A. Tucker
-email: your-email@domain.com
+email: matthewtucker@oakland.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Professional website (+blog) for Matthew A. Tucker, linguist at
+  Professional website for Matthew A. Tucker, linguist at
   Oakland University in Rochester, MI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "127.0.0.1:4000" # the base hostname & protocol for your site
@@ -18,8 +18,8 @@ github_username:  matthew-tucker
 copyright_year: 2016
 author: Matthew A. Tucker
 
-blog_title: "Respect the Phrase"
-blog_description: Thoughts language and fencing.
+#blog_title: "Respect the Phrase"
+#blog_description: Thoughts language and fencing.
 
 excerpt_separator: <!---more--->
 
