@@ -84,7 +84,7 @@ $(document).ready(function() {
 	
 	// make sure links in the pubs list open in a new window/tab so that
 	// pdf/external requests don't direct the user away from the website
-	$(".page-content a").attr("target","_blank");
+	$(".page-content a").attr("target","_blank").attr("rel", "noopener");
 });
 
 
