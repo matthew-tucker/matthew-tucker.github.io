@@ -11,7 +11,7 @@ title:  "Research"
 
 I am interested in the ways in which grammatical principles are used by speakers and comprehenders of language in real-time. I use experimental methodologies to determine to when and how linguistic representations play a role in determining behavior in parsing. This involves questioning how linguistic representations are stored in and retrieved from memory, as well as how predictions are made for upcoming structure. In this domain I have been most concerned with the processing of <span class="construct">dependencies</span> --- relationships between words that hold over a distance.
 
-## Theoretical Mophology
+## Theoretical Morphology
 
 > What are the primitive units and operations which constitute words?
 
