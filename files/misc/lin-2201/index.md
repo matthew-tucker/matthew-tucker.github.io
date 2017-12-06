@@ -1,4 +1,4 @@
-* [Word #1](./word1.wav)
-* [Word #2](./word2.wav)
-* [Word #3](./word3.wav)
+* [Word #1](./files/misc/word1.wav)
+* [Word #2](./files/misc/word2.wav)
+* [Word #3](./files/misc/word3.wav)
 
