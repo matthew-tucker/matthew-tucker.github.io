@@ -7,7 +7,7 @@ loc: nels-PCA.pdf
 ext_site: 
 ---
 
-**The Complex Structure of Agreement Errors: Evidence from Distributional Analyses of Agreement Attraction in Arabic**. To Apper, Proceedings of the 47th Meeting of the North-Eastern Linguistic Society (with [Diogo Almeida](https://sites.google.com/a/nyu.edu/diogo-almeida/)).
+**The Complex Structure of Agreement Errors: Evidence from Distributional Analyses of Agreement Attraction in Arabic**. To Appear, Proceedings of the 47th Meeting of the North-Eastern Linguistic Society (with [Diogo Almeida](https://sites.google.com/a/nyu.edu/diogo-almeida/)).
 
 <!---more--->
 
